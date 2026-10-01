@@ -46,7 +46,7 @@ signed main()
 
             int i = 0;
 
-            while (i != s.length())
+            while (i != s.length() && idx != indices.size())
             {
                 if (s[i] == 'r')
                 {
@@ -68,7 +68,7 @@ signed main()
 
             int i = 0;
 
-            while (i != s.length())
+            while (i != s.length() && idx != indices.size())
             {
                 if (s[i] == 'y')
                 {
